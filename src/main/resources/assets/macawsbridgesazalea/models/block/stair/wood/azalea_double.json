@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/wood/parent/double",
+"textures":{"2": "azalea:block/azalea_planks",
+"particle": "azalea:block/azalea_log",
+"1_1": "azalea:block/azalea_log"}}

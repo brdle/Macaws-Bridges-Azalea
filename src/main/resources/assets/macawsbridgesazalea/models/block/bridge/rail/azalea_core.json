@@ -1,0 +1,3 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/core",
+"textures":{"2": "azalea:block/azalea_planks",
+"particle": "azalea:block/azalea_planks"}}

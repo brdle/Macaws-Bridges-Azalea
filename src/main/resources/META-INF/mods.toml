@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT License"
+issueTrackerURL="https://github.com/onVoid/Macaws-Bridges-Azalea/issues"
+
+
+[[mods]]
+modId="macawsbridgesazalea"
+version="${file.jarVersion}"
+displayName="Macaw's Bridges Azalea"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-azalea"
+updateJSONURL="https://onvoid.net/macawsbridgesazalea/update.json"
+logoFile="macawsbridgesazalea.png"
+logoBlur=false
+credits="onVoid, Sketch Macaw, SameDifferent"
+authors="onVoid"
+description="Adds bridge blocks from Macaw's Bridges for Better Azalea's wood type."
+itemIcon="macawsbridgesazalea:azalea_rope_bridge"
+configBackground="minecraft:textures/block/netherite_block.png"
+
+[[dependencies.macawsbridgesazalea]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.macawsbridgesazalea]]
+    modId="mcwbridges"
+    mandatory=true
+    versionRange="[2.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.macawsbridgesazalea]]
+    modId="azalea"
+    mandatory=true
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
