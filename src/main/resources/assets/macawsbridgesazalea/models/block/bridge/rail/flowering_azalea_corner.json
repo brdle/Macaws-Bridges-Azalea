@@ -1,0 +1,9 @@
+{
+  "parent": "mcwbridges:block/bridge/rail/parent/corner",
+  "textures": {
+    "0": "azalea:block/flowering_azalea_log",
+    "2": "azalea:block/flowering_azalea_planks",
+    "3": "azalea:block/flowering_azalea_log_top",
+    "particle": "azalea:block/flowering_azalea_planks"
+  }
+}

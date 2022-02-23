@@ -14,8 +14,8 @@ logoFile="macawsbridgesazalea.png"
 logoBlur=false
 credits="onVoid, Sketch Macaw, SameDifferent"
 authors="onVoid"
-description="Adds bridge blocks from Macaw's Bridges for Better Azalea's wood type."
-itemIcon="macawsbridgesazalea:azalea_rope_bridge"
+description="Adds bridge blocks from Macaw's Bridges for Better Azalea's wood types."
+itemIcon="macawsbridgesazalea:azalea_log_bridge_middle"
 configBackground="minecraft:textures/block/netherite_block.png"
 
 [[dependencies.macawsbridgesazalea]]

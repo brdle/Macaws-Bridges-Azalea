@@ -20,17 +20,26 @@ public class ClientProxy extends CommonProxy {
   private void clientSetup(FMLClientSetupEvent e) {
     // Log Bridge Middle
     ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.AZALEA_LOG_BRIDGE_MIDDLE.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_LOG_BRIDGE_MIDDLE.get(), RenderType.cutout());
 
     // Log Rope Bridge Middle
     ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.AZALEA_LOG_ROPE_BRIDGE_MIDDLE.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_LOG_ROPE_BRIDGE_MIDDLE.get(), RenderType.cutout());
 
     // Bridge Pier
     ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.AZALEA_BRIDGE_PIER.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_BRIDGE_PIER.get(), RenderType.cutout());
 
     // Bridge Stair
     ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.AZALEA_LOG_BRIDGE_STAIR.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_LOG_BRIDGE_STAIR.get(), RenderType.cutout());
 
     // Rail Bridge
     ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.AZALEA_RAIL_BRIDGE.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_RAIL_BRIDGE.get(), RenderType.cutout());
+
+    // Rope Bridge Stair
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.ACACIA_ROPE_BRIDGE_STAIR.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_ACACIA_ROPE_BRIDGE_STAIR.get(), RenderType.cutout());
   }
 }

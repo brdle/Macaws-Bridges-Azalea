@@ -1,0 +1,7 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle",
+	"textures": {
+		"0": "azalea:block/flowering_azalea_log",
+		"particle": "azalea:block/flowering_azalea_log"
+	}
+}

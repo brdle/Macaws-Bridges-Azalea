@@ -1,0 +1,8 @@
+{
+	"parent": "mcwbridges:block/stair/rope/parent/torch",
+	"textures": {
+		"4": "azalea:block/azalea_log",
+		"1_3": "minecraft:block/torch",
+		"particle": "azalea:block/azalea_log"
+	}
+}

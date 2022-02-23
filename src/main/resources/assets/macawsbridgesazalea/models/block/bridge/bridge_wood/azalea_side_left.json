@@ -1,4 +1,4 @@
-	{
+{
 	"parent": "mcwbridges:block/bridge/bridge_wood/parent/side_left",
 	"textures": {
 		"0": "azalea:block/azalea_log",
