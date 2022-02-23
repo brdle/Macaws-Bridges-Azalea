@@ -5,6 +5,6 @@
 		"2": "azalea:block/azalea_planks",
 		"3": "mcwbridges:block/lead_knot",
 		"4": "azalea:block/azalea_log",
-		"particle": "azalea:block/acacia_log"
+		"particle": "azalea:block/azalea_log"
 	}
 }
