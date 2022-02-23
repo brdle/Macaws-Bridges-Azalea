@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "F F",
+        "WWW"
+    ],
+    "key": {
+        "F": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "azalea:azalea_slab"
+        }
+    },
+    "result": {
+        "item": "macawsbridgesazalea:rope_azalea_bridge",
+        "count": 4
+    }
+}

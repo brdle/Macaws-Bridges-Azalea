@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "F F",
+        "WWW"
+    ],
+    "key": {
+        "F": {
+            "item": "azalea:azalea_fence"
+        },
+        "W": {
+            "item": "azalea:azalea_slab"
+        }
+    },
+    "result": {
+        "item": "macawsbridgesazalea:azalea_log_bridge_middle",
+        "count": 4
+    }
+}
