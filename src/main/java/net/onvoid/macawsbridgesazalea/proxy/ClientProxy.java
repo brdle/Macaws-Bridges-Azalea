@@ -39,7 +39,7 @@ public class ClientProxy extends CommonProxy {
     ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_RAIL_BRIDGE.get(), RenderType.cutout());
 
     // Rope Bridge Stair
-    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.ACACIA_ROPE_BRIDGE_STAIR.get(), RenderType.cutout());
-    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_ACACIA_ROPE_BRIDGE_STAIR.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.AZALEA_ROPE_BRIDGE_STAIR.get(), RenderType.cutout());
+    ItemBlockRenderTypes.setRenderLayer(MacawsBridgesAzaleaBlocks.FLOWERING_AZALEA_ROPE_BRIDGE_STAIR.get(), RenderType.cutout());
   }
 }

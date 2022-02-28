@@ -36,8 +36,8 @@ public class MacawsBridgesAzaleaBlocks {
   public static final RegistryObject<Block> AZALEA_RAIL_BRIDGE = createBlock("azalea_rail_bridge", () -> new Rail_Bridge(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion().strength(0.5F, 2.5F).sound(SoundType.WOOD)));
   public static final RegistryObject<Block> FLOWERING_AZALEA_RAIL_BRIDGE = createBlock("flowering_azalea_rail_bridge", () -> new Rail_Bridge(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion().strength(0.5F, 2.5F).sound(SoundType.WOOD)));
 
-  public static final RegistryObject<Block> ACACIA_ROPE_BRIDGE_STAIR = createBlock("azalea_rope_bridge_stair", () -> new Iron_Stair(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(0.8F, 2.0F).sound(SoundType.WOOD)));
-  public static final RegistryObject<Block> FLOWERING_ACACIA_ROPE_BRIDGE_STAIR = createBlock("flowering_azalea_rope_bridge_stair", () -> new Iron_Stair(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(0.8F, 2.0F).sound(SoundType.WOOD)));
+  public static final RegistryObject<Block> AZALEA_ROPE_BRIDGE_STAIR = createBlock("azalea_rope_bridge_stair", () -> new Iron_Stair(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(0.8F, 2.0F).sound(SoundType.WOOD)));
+  public static final RegistryObject<Block> FLOWERING_AZALEA_ROPE_BRIDGE_STAIR = createBlock("flowering_azalea_rope_bridge_stair", () -> new Iron_Stair(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(0.8F, 2.0F).sound(SoundType.WOOD)));
 
   public static void create(IEventBus bus) {
     BLOCKS.register(bus);
