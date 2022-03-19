@@ -85,8 +85,8 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
-    implementation fg.deobf("curse.maven:better-azalea-517564:3621119")
-    implementation fg.deobf("curse.maven:macaws-bridges-351725:3561175")
+    implementation fg.deobf("curse.maven:better-azalea-517564:${better_azalea_version}")
+    implementation fg.deobf("curse.maven:macaws-bridges-351725:${macaws_bridges_version}")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
